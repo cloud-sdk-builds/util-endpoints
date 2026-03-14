@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/util-endpoints`](https://www.npmjs.com/package/@aws-sdk/util-endpoints/v/3.996.4).
+[`@aws-sdk/util-endpoints`](https://www.npmjs.com/package/@aws-sdk/util-endpoints/v/3.996.5).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,7 +28,7 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/util-endpoints@3.996.4/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/util-endpoints@3.996.5/index.min.mjs
 ```
 
 SRI SHA Hash
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/util-endpoints": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/util-endpoints@3.996.4/index.min.mjs"
+            "@aws-sdk/util-endpoints": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/util-endpoints@3.996.5/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/util-endpoints@3.996.4/index.min.mjs": "sha384-aRvyeS4e7/m41GXRT1s7lS1z54B3G+DP4noH8un8lX4K6c4DwF/h11/ms7LvQN2f"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/util-endpoints@3.996.5/index.min.mjs": "sha384-aRvyeS4e7/m41GXRT1s7lS1z54B3G+DP4noH8un8lX4K6c4DwF/h11/ms7LvQN2f"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/util-endpoints": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/util-endpoints@3.996.4/index.min.mjs"
+                        "@aws-sdk/util-endpoints": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/util-endpoints@3.996.5/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/util-endpoints@3.996.4/index.min.mjs": "sha384-aRvyeS4e7/m41GXRT1s7lS1z54B3G+DP4noH8un8lX4K6c4DwF/h11/ms7LvQN2f"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/util-endpoints@3.996.5/index.min.mjs": "sha384-aRvyeS4e7/m41GXRT1s7lS1z54B3G+DP4noH8un8lX4K6c4DwF/h11/ms7LvQN2f"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.996.4`)
+* Always pin to a specific version (`@3.996.5`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/util-endpoints/blob/refs/tags/3.996.4/LICENSE
+https://github.com/cloud-sdk-builds/util-endpoints/blob/refs/tags/3.996.5/LICENSE
 ```
 
 ---
